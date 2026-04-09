@@ -514,6 +514,7 @@ header.sticky-visible {
     display: flex;
     gap: 32px;
     align-items: center;
+    justify-content: center;
 
     overflow-x: auto;
     overflow-y: hidden;
@@ -1784,6 +1785,9 @@ header.sticky-visible {
 
 
 @media (max-width: 800px) {
+    .logo-row {
+        justify-content:flex-start;
+    }
     .product-hero.wrapper {
         padding: 24px 16px 48px;
     }
@@ -1954,8 +1958,9 @@ header.sticky-visible {
     }
 
     .divider {
-        margin: 16px 0;
+        margin: 16px 0px;
     }
+
 
     .specification-table-wrapper {
         margin-top: 48px;
