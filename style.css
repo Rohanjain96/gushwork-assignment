@@ -263,6 +263,8 @@ header.sticky-visible {
     line-height: 24px;
     color: var(--neutral-black);
     text-decoration: none;
+    display: inline-flex;
+    align-items: center;
 }
 
 .product-hero {
@@ -1305,7 +1307,7 @@ header.sticky-visible {
 .divider {
     margin: 32px 0;
     height: 1px;
-    background: rgba(255, 255, 255, 0.25);
+    border: 1px solid var(--gray-200);
 }
 
 .support-text {
@@ -1943,6 +1945,10 @@ header.sticky-visible {
 
     .header-wrapper {
         padding-inline: 16px;
+    }
+
+    .divider {
+        margin: 16px 0;
     }
 
     .specification-table-wrapper {
